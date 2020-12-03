@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Canvas Sample</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="canvasstyles.css" media="screen">
+</head>
+<body>
+  <div id="mainDiv">
+	<header>
+  	<h3>Canvas</h3>
+	</header>
+	
+	<section>
+  	<h4>My first canvas tag:</h4>
+  	<canvas id="myCanvas" width="300" height="320" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+  	<h4>My second canvas tag:</h4>
+  	<canvas id="myCanvas2" width="300" height="320" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.rect(-50, 0, 400, 400);
+ctx.fillStyle = "#E5F1D5";
+ctx.fill()
+ctx.beginPath();
+ctx.rect(10, 20, 150, 100);
+ctx.fillStyle = "#7FD4D2";
+ctx.fill();
+ctx.beginPath();
+ctx.rect(40, 60, 300, 100);
+ctx.fillStyle = "#EECECD";
+ctx.fill();
+ctx.beginPath();
+ctx.rect(-10, 100, 150, 300);
+ctx.fillStyle = "#DDA698";
+ctx.fill();
+ctx.beginPath();
+ctx.rect(80, 150, 150, 300);
+ctx.fillStyle = "#928BD8";
+ctx.fill();
+ctx.beginPath();
+ctx.rect(40, 200, 300, 100);
+ctx.fillStyle = "#C78CD9";
+ctx.fill();
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Canvas Sample</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="canvasstyles.css" media="screen">
+</head>
+<body>
+  <div id="mainDiv">
+	<header>
+  	<h3>Canvas</h3>
+	</header>
+	
+	<section>
+  	<h4>My first canvas tag:</h4>
+  	<canvas id="myCanvas" width="300" height="320" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+  	<h4>My second canvas tag:</h4>
+  	<canvas id="myCanvas2" width="300" height="320" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.rect(-50, 0, 400, 400);
+ctx.fillStyle = "#E5F1D5";
+ctx.fill()
+ctx.beginPath();
+ctx.rect(10, 20, 150, 100);
+ctx.fillStyle = "#7FD4D2";
+ctx.fill();
+ctx.beginPath();
+ctx.rect(40, 60, 300, 100);
+ctx.fillStyle = "#EECECD";
+ctx.fill();
+ctx.beginPath();
+ctx.rect(-10, 100, 150, 300);
+ctx.fillStyle = "#DDA698";
+ctx.fill();
+ctx.beginPath();
+ctx.rect(80, 150, 150, 300);
+ctx.fillStyle = "#928BD8";
+ctx.fill();
+ctx.beginPath();
+ctx.rect(40, 200, 300, 100);
+ctx.fillStyle = "#C78CD9";
+ctx.fill();
+ var c2 = document.getElementById('myCanvas2');
+	var ctx2 = c2.getContext("2d");
+     	var canvas = document.getElementById('myCanvas2');
+     	var ctx2 = canvas.getContext('2d');
+     	ctx2.fillStyle = "#DDA698";
+     	ctx2.beginPath();
+     	ctx.moveTo(75, 40);
+    ctx2.bezierCurveTo(150, 74, 140, 50, 100, 50);
+    ctx2.bezierCurveTo(40, 50, 40, 125, 40, 125);
+    ctx2.bezierCurveTo(40, 160, 80, 204, 150, 240);
+    ctx2.bezierCurveTo(220, 204, 260, 160, 260, 125);
+    ctx2.bezierCurveTo(260, 125, 260, 50, 200, 50);
+    ctx2.bezierCurveTo(170, 50, 150, 74, 150, 80);
+     	ctx2.fill();
+  	</script>
+ </section>
+  	
+</div>
+</body>
+</html>
+  	</script>
+ </section>
+  	
+</div>
+</body>
+</html>
