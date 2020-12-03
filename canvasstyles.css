@@ -1,0 +1,18 @@
+body 
+{
+  font-family: Arial, sans-serif;
+}
+
+canvas
+{
+  border: 1px solid black;
+}
+
+#mainDiv
+{
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid gray;
+  border-radius: 2em;
+  padding: 2em;
+}
