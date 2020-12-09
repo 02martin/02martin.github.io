@@ -51,14 +51,15 @@ ctx.fill();
      	var ctx2 = canvas.getContext('2d');
      	ctx2.fillStyle = "#DDA698";
      	ctx2.beginPath();
-     	ctx.moveTo(75, 40);
-    ctx2.bezierCurveTo(150, 74, 140, 50, 100, 50);
-    ctx2.bezierCurveTo(40, 50, 40, 125, 40, 125);
-    ctx2.bezierCurveTo(40, 160, 80, 204, 150, 240);
-    ctx2.bezierCurveTo(220, 204, 260, 160, 260, 125);
-    ctx2.bezierCurveTo(260, 125, 260, 50, 200, 50);
-    ctx2.bezierCurveTo(170, 50, 150, 74, 150, 80);
-     	ctx2.fill();
+    	 ctx2.arc(75, 75, 50, 0, Math.PI * 2, true); // Outer circle
+	ctx2.moveTo(110, 75);
+	ctx2.arc(75, 75, 35, 0, Math.PI, false); // Mouth (clockwise)
+	ctx2.moveTo(65, 65);
+	ctx2.arc(60, 65, 5, 0, Math.PI * 2, true); // Left eye
+	ctx2.moveTo(95, 65);
+	ctx2.arc(90, 65, 5, 0, Math.PI * 2, true); // Right eye
+	ctx2.stroke();
+
   	</script>
  </section>
   	
